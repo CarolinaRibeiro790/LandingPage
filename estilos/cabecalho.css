@@ -2,38 +2,39 @@
 @import url('https://fonts.googleapis.com/css2?family= Montserrat & display=swap');
 
 header{
-    width: 100vw;
-    height: 100px;
+    width: 98vw;
+    height: 230px;
     box-sizing: border-box;
     font-family:'Montserrat', sans-serif;
-    /* position: fixed;
-    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5); */
+
 }
-.logo{
-    padding: 0 70px 0 0;
-}
+
 .menuprincipal{
    display: flex;
    justify-content: space-between;
    flex-direction: row ; 
    align-items: center;
    padding: 70px 150px;  
+   box-sizing: border-box;
 }
 .cab_menu{
-    width: 250px;
     display: flex;
     text-align: center;
     justify-content: space-between;
-    margin: 0 16px;
+    /* margin: 0 16px; */
+    align-items: center;
+    box-sizing: border-box;
+    
 }
 .menu {
     text-decoration: none;
     color: #D3D4D6;
     line-height: 28px;
     font-weight: bold;
-    width: 90px;
-    font-size: 18px;
+    width: 80px;
+    font-size: 18.3px;
     padding: 20px;
+    cursor: pointer;
     
 }
 .menulinha{
@@ -41,8 +42,8 @@ header{
     color: #D3D4D6;
     line-height: 28px;
     font-weight: bold;
-    width: 90px;
-    font-size: 18px;
+    width: 80px;
+    font-size: 18.3px;
     padding: 30px 20px;
 }
 .login{
@@ -56,4 +57,8 @@ header{
     line-height: 28px;
     font-style: normal;
     font-weight: 600;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    
 }
