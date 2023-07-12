@@ -7,8 +7,11 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/cabecalho.css">
-    <link rel="stylesheet" href="parteum.css">
-    <link rel="stylesheet" href="partedois.css">
+    <link rel="stylesheet" href="estilos/parteum.css">
+    <link rel="stylesheet" href="estilos/partedois.css">
+    <link rel="stylesheet" href="estilos/partetres.css">
+    <link rel="stylesheet" href="estilos/partequatro.css">
+    <link rel="stylesheet" href="estilos/partecinco.css">
 </head>
 <body>
 <header>
@@ -17,7 +20,7 @@
             <a href="index.html"><img src="imagens/Logo.png" alt="M3 Lending"></a>
         </div>
         <nav class="cab_menu">
-            <a class="menu" href="#">Quem Somos</a>
+            <a class="menu" href="#sobre">Quem Somos</a>
             <a class="menu" href="#">Como Funciona</a>
             <a class="menulinha" href="#">Simulador</a>
             <a class="menulinha" href="#">FAQ</a>
@@ -26,34 +29,118 @@
     </div>
 </header>
 
-    <main>
-        <div class="parteum">
-            <section class="parteumesquerdo">
-                <p class="sub">SÓ A M3 LENDING OFERECE</p>
-                <h1 class="titulo">Praticidade na <br> hora de <strong class="orange">investir</strong>, <br> e de <strong class="green">buscar <br> crédito</strong>.</h1>
-                <div class="linksparte1">
-                    <a class="emprestimo" href="#">Quero empréstimo</a>
-                    <a class="investir" href="#">Quero investir</a>
-                </div>
-            </section>
-            <section class="parteumdireito">
-                <img class="primeiraimg" src="imagens/homemregando-6.png" alt="">
-            </section>
+<main>
+    <section class="parteum">
+        <div class="parteumesquerdo">
+            <p class="sub">SÓ A M3 LENDING OFERECE</p>
+            <h1 class="titulo">Praticidade na <br> hora de <strong class="orange">investir</strong>, <br> e de <strong
+                    class="green">buscar <br> crédito</strong>.</h1>
+            <div class="linksparte1">
+                <a class="emprestimo" href="#">Quero empréstimo</a>
+                <a class="investir" href="#">Quero investir</a>
+            </div>
         </div>
-        <div class="partedois">
-            <section class="partedoisesquerdo">
-                    <!-- <img src="imagens/foto.png" alt=""> -->
-    
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/kA8aD2NQa4c" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </section>
-            <section class="partedoisdireito">
-                <h2 class="tit">A oportunidade de investimento que você esperava.</h2>
-                <p class="text">A M3 Lending proporciona empréstimos para empresas através de investimentos realizados por pessoas físicas, com processos menos burocráticos, taxas de juros menores e rentabilidade superior aos investimentos mais seguros do mercado (até 52,87% ao ano).
-                </p>
-            </section>
+        <div class="parteumdireito">
+            <img class="primeiraimg" src="imagens/homemregando-6.png" alt="">
         </div>
-    </main>
+    </section>
 
-    <footer></footer>
+    <section class="partedois"><a id="sobre"></a>
+        <div class="partedoisesquerdo">
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/kA8aD2NQa4c"
+                title="YouTube video player" frameborder="1"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+
+        <div class="partedoisdireito">
+            <h2 class="tit">A oportunidade de investimento que você esperava.</h2>
+            <p class="text">A M3 Lending proporciona empréstimos para empresas através de investimentos realizados por
+                pessoas físicas, com processos menos burocráticos, taxas de juros menores e rentabilidade superior aos
+                investimentos mais seguros do mercado (até 52,87% ao ano).
+            </p>
+        </div>
+    </section>
+
+    <section class="partetres">
+
+        <div class="partetrescima">
+            <h2 class="titu">Como funciona?</h2>
+            <p class="texto">Fornecemos capital para que o seu negócio consiga crescer de forma saudável e que os investidores <br> tenham
+                uma rentabilidade superior a do mercado.</p>
+        </div>
+
+        <div class="partetresimg">
+            <div class="galeria">
+                <div class="glimg1">
+                    <img class="gal" src="imagens/cadastro.png" alt="Cadastro no nosso site">
+                    <figcaption>Faça o cadastro no site e aguarde o e-mail de confirmação.</figcaption>
+                </div>
+            </div>
+
+                <div class="galeria">
+                    <div class="glimg2">
+                        <img class="gal" src="imagens/solicitacao.png" alt="Solicitação">
+                        <figcaption>Faça a solicitação do empréstimo ou nos diga o quanto quer investir.</figcaption>
+                    </div>
+                </div>
+
+                <div class="galeria">
+                    <div class="glimg3">
+                        <img src="imagens/sonhorealizado.png" alt="Pessoa feliz">
+                        <figcaption>Receba seu empréstimo e realize os sonhos do seu empreendimento.</figcaption>
+                    </div>
+                </div>            
+        </div>
+    </section>
+
+    <section class="partequatro">
+    
+        <div class="simu1">
+            <h2 class="titu">Simulador de Crédito</h2>
+        </div>
+
+        <div class="partequatrosimulador">
+            <div class="simulador">
+                <div class="simuparteg">
+                    <h3 class="textosimu">Valor do Crédito </h3>
+                    <h3 class="textosimu2">R$100.000</h3>
+                    <input class="simu" type="range" min="5000" max="500000">
+                </div>
+            </div>
+            <div class="simulador">
+                <div class="simuparte">
+                    <h3 class="textosimu">Parcelas</h3>
+                    <h3 class="textosimu2">12</h3>
+                    <input class="simu" type="range" min="1" max="12">
+                </div>
+            </div>
+            <div class="simulador">
+                <div class="simuparte">
+                    <h3 class="textosimu">Taxa</h3>
+                    <h3 class="textosimu2">1.14%</h3>
+                </div>
+            </div>
+            <div class="simulador">
+                <div class="simuparteg">
+                    <h3 class="textosimu">Valor de Cada Parcela</h3>
+                    <h3 class="textosimu2">R$8.963,66</h3>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+
+    <section class="partecinco">
+        <h2 class="textopt5">Invista no que é rentável <br> de verdade.</h2>
+    </section>
+</main>
+
+<footer>
+
+
+</footer>
 </body>
+
 </html>

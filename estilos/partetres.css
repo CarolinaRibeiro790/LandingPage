@@ -1,0 +1,58 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family= Montserrat & display=swap');
+
+:root{
+    --cor1: #232730;
+    --cor2: #1AE59B;
+    --cor3: #1C1F26;
+    --cor4: #D3D4D6;
+    --cor5: #ff7300;
+    --fonte: 'Montserrat', sans-serif;
+}
+
+.partetres{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.titu{
+    color: var(--cor2);
+    font-size: 40px;
+    font-family: var(--fonte);
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+}
+.texto{
+    color: var(--cor4);
+    font-size: 19px;
+    text-align: center;
+    line-height: 140%;
+    font-family: var(--fonte);
+    font-weight: 400;
+}
+.partetresimg{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 70px 150px;
+   
+}
+.galeria{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+figcaption{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: var(--cor4);
+    padding: 20px 50px;
+    font-size: 16px;
+    line-height: 130%;
+    font-family: var(--fonte);
+    font-weight: 500;
+}

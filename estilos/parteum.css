@@ -1,15 +1,24 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family= Montserrat & display=swap');
 
+:root{
+    --cor1: #232730;
+    --cor2: #1AE59B;
+    --cor3: #1C1F26;
+    --cor4: #D3D4D6;
+    --cor5: #ff7300;
+    --fonte: 'Montserrat', sans-serif;
+}
+
 .parteum{
     width: 100%;
     height: 600px;
     padding: 70px 150px;
-    font-family:'Montserrat', sans-serif;
+    font-family:var(--fonte);
     display: flex;
     flex-direction: row;
     box-sizing: border-box;
-    background-color: #232730;
+    background-color: var(--cor1);
 }
 .parteumesquerdo{
     width: 50%;
@@ -17,7 +26,7 @@
     flex-direction: column;
 }
 .sub{
-    color: #1AE59B;
+    color: var(--cor2);
     letter-spacing: 3.1px;
     line-height: 28px;
     font-size: 14px;
@@ -25,7 +34,7 @@
     font-weight: 500;
 }
 .titulo{
-    color: #D3D4D6;
+    color: var(--cor4);
     font-size: 58px;
     line-height: 120%;
     font-style: normal;
@@ -34,10 +43,10 @@
     margin: 10px 0 ;
 }
 .orange{
-    color: #ff7300;
+    color: var(--cor5);
 }
 .green{
-    color: #1ae59b;
+    color: var(--cor2);
 }
 
 .parteumdireito{
@@ -57,12 +66,12 @@
 .emprestimo{
     display: inline-block;
     margin-right: 20px;
-    background-color: #ff7300;
-    color: #1C1F26;
+    background-color: var(--cor5);
+    color: var(--cor3);
     border: none;
     padding: 10px 15px;
     border-radius: 32px;
-    font-family:'Montserrat', sans-serif;
+    font-family:var(--fonte);
     font-size: 18px;
     line-height: 28px;
     font-style: normal;
@@ -76,12 +85,12 @@
 }
 .investir{
     display: inline-block;
-    background-color: #1C1F26;
-    border: 1px solid #ff7300;
-    color: #ff7300;
+    background-color: var(--cor3);
+    border: 1px solid var(--cor5);
+    color: var(--cor5);
     padding: 10px 15px;
     border-radius: 32px;
-    font-family:'Montserrat', sans-serif;
+    font-family:var(--fonte);
     font-size: 18px;
     line-height: 28px;
     font-style: normal;
