@@ -26,7 +26,7 @@
 }
 
 iframe{
-    background-image: url(../LandingPage/imagens/foto.png) ;
+    background-image: url(../LandingPage/imagens/foto.png) no-repeat;
     width: 490px;
     height: 350px;
     margin-top: 20px;

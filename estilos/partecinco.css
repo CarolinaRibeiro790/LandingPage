@@ -11,15 +11,16 @@
 }
 
 .partecinco{
-    /* width: 100%; */
+    width: 100%;
     height: 250px;
+    box-sizing: border-box;
 }
 .textopt5{
     color: var(--cor2);
-    font-size: 40px;
+    font-size: 42px;
     font-weight: bold;
     line-height: 120%;
     text-align: center;
-    /* padding: 80px; */
-    box-sizing: border-box;
+    padding: 80px; 
+    
 }

@@ -1,0 +1,96 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family= Montserrat & display=swap');
+
+:root{
+    --cor1: #232730;
+    --cor2: #1AE59B;
+    --cor3: #1C1F26;
+    --cor4: #D3D4D6;
+    --cor5: #ff7300;
+    --fonte: 'Montserrat', sans-serif;
+}
+
+.parteseis{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.parteseisesquerdo{
+    width: 50%;
+    height: 480px;
+    background-image: url('../imagens/foto01.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    
+}
+.parteseisdireito{
+    width: 50%;
+    height: 480px;
+    background-image: url('../imagens/foto02.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.titimg{
+    font-size: 25px;
+    line-height: 100%;
+    font-weight: bold;
+    color: var(--cor3);
+    margin: 150px 50px 10px 50px;
+}
+.teximg{
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 1px;
+    font-size: 300;
+    padding: 10px 10px 50px 10px ;
+    text-align: center;
+}
+.teximg1{
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 1px;
+    font-size: 300;
+    padding: 10px 10px 50px 10px ;
+    text-align: center;
+}
+.botcadast{
+    display: inline-block;
+    margin-top: 20px;
+    background-color: var(--cor5);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 32px;
+    font-family:var(--fonte);
+    font-size: 18px;
+    line-height: 28px;
+    font-style: normal;
+    font-weight: 700;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+.botcadast1{
+    display: inline-block;
+    background-color: var(--cor5);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 32px;
+    font-family:var(--fonte);
+    font-size: 18px;
+    line-height: 28px;
+    font-style: normal;
+    font-weight: 700;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.cadastrobt{
+    text-decoration: none;
+    color: var(--cor3);
+}

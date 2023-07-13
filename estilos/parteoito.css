@@ -1,0 +1,133 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family= Montserrat & display=swap');
+
+:root{
+    --cor1: #232730;
+    --cor2: #1AE59B;
+    --cor3: #1C1F26;
+    --cor4: #D3D4D6;
+    --cor5: #ff7300;
+    --fonte: 'Montserrat', sans-serif;
+}
+
+.parteoito{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.ladoesquedopt8{
+    width: 50%;
+    padding:50px 120px;
+    
+}
+.titulo8{
+    font-size: 40px;
+    color: var(--cor2);
+    font-weight: bold;
+    line-height: 120%;
+    padding: 30px;
+}
+.textosub8{
+    color: var(--cor4);
+    font-size: 18px;
+    margin-left: 10px;
+    line-height: 150%;
+    font-weight: 400;
+    padding: 18px 20px 10px 20px;
+}
+.texto8{
+    color: var(--cor4);
+    font-size: 18px;
+    margin-left: 10px;
+    line-height: 200%;
+    font-weight: 400;
+    
+}
+.icones{
+    width: 25px;
+    height: 25px;
+    margin-left: 30px;
+}
+.ctt{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.imgctt{
+    width: 330px;
+}
+.ladodireito8{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.formlr{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+   padding-right: 180px;
+
+}
+label{
+    color: var(--cor4);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+}
+p{
+    padding: 5px;
+}
+textarea{
+   
+    color: var(--cor4);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    border: 1px solid #FFFFFF;
+    background: transparent;
+    height: 200px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 25px;
+    width: 450px;
+    font-family: var(--fonte);
+}
+
+input.pt8{
+    color: var(--cor4);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    border: 1px solid #FFFFFF;
+    background: transparent;
+    height: 40px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 25px;
+    width: 450px;
+}
+
+.bot{
+    display: inline-block;
+    background-color: var(--cor2);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 32px;
+    font-family:var(--fonte);
+    font-size: 18px;
+    line-height: 28px;
+    font-style: normal;
+    font-weight: 700;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.cont{
+    text-decoration: none;
+    color: var(--cor3);
+}
