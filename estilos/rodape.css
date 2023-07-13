@@ -20,6 +20,7 @@ footer{
 .dirt{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 .ptredes{
     width: 25%;
@@ -37,12 +38,26 @@ footer{
 }
 .redes{
     margin: -2px;
-    
 }
 .linkpg{
     display: flex;
     flex-direction: column;
 }
+.subtitulo{
+    color: var(--cor4);
+    font-size: 14px;
+    
+}
+.rodapetxt{
+    text-decoration: none;
+    color: var(--cor2);
+    font-size: 20px;
+    line-height: 180%;
+    font-weight: 200;
+    font-style: normal;
+
+}
+
 
 .partedireita{
     width: 50%;
