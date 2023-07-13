@@ -16,28 +16,33 @@ footer{
 }
 .parteesquerda{
     width: 50%;
+    margin-left: 120px;
 }
 .dirt{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    padding: -25px;
 }
 .ptredes{
-    width: 25%;
+    width: 30%;
     height: 200px;
     display: flex;
-    background-color: yellow;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin-right: 40px;
+    
 }
 .imglogovert{
     width: 70%;
-    margin-bottom: 20px;
-    margin-left: 20px;
+    margin: 20px 20px 30px 50px ;
+}
+.redessociais{
+    margin-left: 50px;
 }
 .redes{
     margin: -2px;
+    width: 27px;
 }
 .linkpg{
     display: flex;
@@ -46,25 +51,48 @@ footer{
 .subtitulo{
     color: var(--cor4);
     font-size: 14px;
+    margin: 30px 20px 10px 10px;
+    padding: 0 20px 20px 10px;
+    font-weight: bold;
+    line-height: 100%;
     
 }
 .rodapetxt{
     text-decoration: none;
     color: var(--cor2);
     font-size: 20px;
-    line-height: 180%;
-    font-weight: 200;
+    line-height: 250%;
+    font-weight: 300;
     font-style: normal;
-
+    margin: 0px 10px;
+    padding: 0 5px;
 }
-
-
 .partedireita{
     width: 50%;
+    padding-right: 50px;
+    margin-right: 100px;
 }
 .textofooter{
-    color: var(--cor4);
-    font-size: 14px;
+    color: white;
+    font-size: 13px;
     font-weight: 300;
-    font-weight: 120%;
+    /* font-weight: 120%; */
+    line-height: 150%;
+    letter-spacing: 0.3px;
+    padding: 10px;
+}
+.final{
+    width: 70%;
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.textfinal{
+    color: var(--cor4);
+    font-weight: 300;
+    font-style: normal;
+    font-size: 12px;
+    padding: 10px;
 }
