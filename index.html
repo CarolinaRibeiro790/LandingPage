@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>M3 Lending</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/cabecalho.css">
     <link rel="stylesheet" href="estilos/parteum.css">
@@ -110,14 +112,14 @@
                 <div class="simuparteg">
                     <h3 class="textosimu">Valor do Crédito </h3>
                     <h3 class="textosimu2">R$100.000</h3>
-                    <input id="simu" type="range" min="5000" max="500000">
+                    <input id="simu" type="range" min="5000" max="500000" >
                 </div>
             </div>
             <div class="simulador">
                 <div class="simuparte">
                     <h3 class="textosimu">Parcelas</h3>
                     <h3 class="textosimu2">12</h3>
-                    <input id="simu" type="range" min="1" max="12">
+                    <input id="simu" type="range" min="1" max="25" value="12">
                 </div>
             </div>
             <div class="simulador">
@@ -167,37 +169,44 @@
     </section>
 
     <section class="partesete"><a id="duvidas"></a>
+        
         <div class="cima6">
             <p class="subt">Ficou alguma dúvida?</p>
             <h3 class="titu">Perguntas frequentes</h3>
         </div>
 
         <div class="principal">
+            <span id="aparecer" class="material-icons" onclick="clickMenu()">expand_more</span>
             <div class="textprincipal">Qual o valor do aporte mínimo?</div>
             <p class="textsec">Com R$ 250,00 você já pode começar a investir.</p>
         </div>
 
         <div class="principal">
+            <span id="aparecer" class="material-icons" onclick="clickMenu()">expand_more</span>
             <div class="textprincipal">Como é feito o retorno do valor investido?</div>
             <p class="textsec">O retorno está atrelado diretamente ao pagamento das parcelas referentes ao contrato da empresa investida. Como o pagamento é mensal, o seu retorno também é mensal.</p>
         </div>
 
         <div class="principal">
+            <span id="aparecer" class="material-icons" onclick="clickMenu()">expand_more</span>
             <div class="textprincipal">Como funciona o imposto de renda?</div>
             <p class="textsec">O imposto de renda é retido na fonte e o informe de rendimento é enviado para o investidor pela M3 Lending.</p>
         </div>
 
         <div class="principal">
+            <span id="aparecer" class="material-icons" onclick="clickMenu()">expand_more</span>
             <div class="textprincipal">Qual o risco?</div>
             <p class="textsec">Como todo investimento, o nosso também possui risco, ou seja, o retorno está diretamente atrelado ao pagamento das parcelas do contrato pela empresa investida. A M3 faz uma análise de crédito baseada no histórico da empresa e solicita um avalista como garantia. Destacamos que a M3 possui um time de cobranças responsável pelos casos de inadimplência e que através desse time, realiza ações extra judiciais ou, em alguns casos negociações na esfera judicial, visando sempre reaver o valor em aberto da melhor forma possível.</p>
         </div>
 
         <div class="principal">
+            <span id="aparecer" class="material-icons" onclick="clickMenu()">expand_more</span>
             <div class="textprincipal">Os investidores são cobertos pelo FGC?</div>
             <p class="textsec">Não, nenhum dos investimentos realizados através da plataforma M3 são cobertos pelo FGC.</p>
         </div>
 
         <div class="principal">
+            <span id="aparecer" class="material-icons" onclick="clickMenu()">expand_more</span>
             <div class="textprincipal">Em quanto tempo o valor resgatado está na minha conta corrente?</div>
             <p class="textsec">O tempo será o mesmo de uma operação de TED, ou seja, até um dia útil.</p>
         </div>
@@ -300,6 +309,7 @@
     <p class="textfinal">Créditos e Agradecimentos</p>
     
 </div>
+
 </body>
 
 </html>
