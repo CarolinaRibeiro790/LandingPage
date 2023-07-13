@@ -14,6 +14,7 @@
     width: 100%;
     display: flex;
     flex-direction: row;
+    margin-bottom: 120px;
 }
 .ladoesquedopt8{
     width: 50%;

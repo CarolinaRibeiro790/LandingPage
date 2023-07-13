@@ -11,4 +11,45 @@
 }
 footer{
     width: 100%;
+    display: flex;
+    flex-direction:row;
+}
+.parteesquerda{
+    width: 50%;
+}
+.dirt{
+    display: flex;
+    flex-direction: row;
+}
+.ptredes{
+    width: 25%;
+    height: 200px;
+    display: flex;
+    background-color: yellow;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.imglogovert{
+    width: 70%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.redes{
+    margin: -2px;
+    
+}
+.linkpg{
+    display: flex;
+    flex-direction: column;
+}
+
+.partedireita{
+    width: 50%;
+}
+.textofooter{
+    color: var(--cor4);
+    font-size: 14px;
+    font-weight: 300;
+    font-weight: 120%;
 }
