@@ -28,7 +28,7 @@
 .partedoisdireito{
     width: 50%;
     height: 550px;
-    padding: 0 70px;
+    padding: 0 0px;
     box-sizing: border-box;
 }
 .tit{
@@ -43,7 +43,7 @@
 .text{
     color: var(--cor4);
     font-size: 19px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 170%;
     font-family: var(--fonte);
 
