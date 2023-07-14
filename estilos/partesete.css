@@ -19,9 +19,10 @@
     color: var(--cor4);
     font-weight: 300;
     line-height: 120%;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
-    padding: 60px 0 0 20px;
+    margin: 60px 0px 0px 0px;
+    padding-top: 120px;
 
 }
 .principal{
@@ -38,6 +39,12 @@
     border-radius: 15px;
     padding: 30px;
 }
-span{
-    
+.titu5{
+    color: var(--cor2);
+    font-size: 41px;
+    line-height: 120%;
+    font-family: var(--fonte);
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 20px;
 }

@@ -13,8 +13,8 @@
 .partedois{
     width: 100%;
     background-color:  var(--cor3);
-    height: 550px;
-    padding: 100px 150px;
+    height: 580px;
+    padding: 130px 150px;
     font-family:var(--fonte);
     display: flex;
     flex-direction: row;
@@ -24,19 +24,11 @@
 .partedoisesquerdo{
     width: 50%;
 }
-
-iframe{
-    background-image: url(../LandingPage/imagens/foto.png) no-repeat;
-    width: 490px;
-    height: 350px;
-    margin-top: 20px;
-    border: 1px solid black;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.534);
-}
-
+ 
 .partedoisdireito{
     width: 50%;
-    padding: 0px 10px 0 70px;
+    height: 550px;
+    padding: 0 70px;
     box-sizing: border-box;
 }
 .tit{
@@ -46,7 +38,6 @@ iframe{
     font-family: var(--fonte);
     font-style: normal;
     font-weight: bold;
-    margin-top: 20px;
     margin-bottom: 20px;
 }
 .text{

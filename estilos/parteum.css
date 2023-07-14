@@ -12,8 +12,8 @@
 
 .parteum{
     width: 100%;
-    height: 600px;
-    padding: 70px 150px;
+    height:auto;
+    padding: 80px 150px;
     font-family:var(--fonte);
     display: flex;
     flex-direction: row;

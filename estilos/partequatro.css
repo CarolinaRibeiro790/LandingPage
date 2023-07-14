@@ -15,10 +15,11 @@
     width: 100%;
     height: 380px;
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    padding: 20px;
+    padding-bottom: 40px;
     box-sizing: border-box;
-  
+    
  }
 .partequatrosimulador{
     display: flex;
@@ -26,15 +27,26 @@
     width: 20%;    
     margin-left: 100px;
 }
+.titu4{
+    color: var(--cor2);
+    font-size: 40px;
+    font-family: var(--fonte);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 60px;
+
+}
 .simu1{
-    margin: 30px;
+    margin: 0 30px;
 
 }
 .simulador{
     display: flex;
     flex-direction: column;
-    margin-left: 40px;
-    padding: 25px;
+    margin-left: 40px ;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 25px 25px 40px 25px;
     text-align: center;
     box-sizing: border-box;
    

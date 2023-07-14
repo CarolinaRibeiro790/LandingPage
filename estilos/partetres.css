@@ -12,18 +12,18 @@
 
 .partetres{
     width: 100%;
+    height: 800px;
     display: flex;
     flex-direction: column;
-    padding-top: 30px;
 }
-
 .titu{
     color: var(--cor2);
     font-size: 40px;
     font-family: var(--fonte);
     font-weight: bold;
     text-align: center;
-    margin: 20px;
+    margin: 20px ;
+    padding-top: 120px;
 }
 .texto{
     color: var(--cor4);
