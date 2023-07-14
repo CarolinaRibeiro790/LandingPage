@@ -13,7 +13,7 @@ footer{
     width: 100%;
     display: flex;
     flex-direction:row;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
 }
 .parteesquerda{
     width: 50%;
@@ -22,7 +22,7 @@ footer{
 .dirt{
     display: flex;
     flex-direction: row;
-    padding: -25px;
+    padding: -30px;
 }
 .ptredes{
     width: 30%;
@@ -96,5 +96,5 @@ footer{
     font-weight: 300;
     font-style: normal;
     font-size: 12px;
-    padding: 20px;
+    padding: 30px;
 }

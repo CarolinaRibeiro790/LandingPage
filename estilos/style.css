@@ -18,3 +18,9 @@ body{
     background-color: var(--cor1);
     font-family: var(--fonte);
 }
+.whats{
+    position:fixed;
+    z-index:1000; 
+    left:1250px; 
+    bottom:30px;
+}
