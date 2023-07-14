@@ -17,10 +17,10 @@ header{
     font-family:'Montserrat', sans-serif;
     position: fixed;
     top: 0;
-    transition: all 0.5s; /* Adicione uma transição suave */
+    transition: all 0.2s; /* Adicione uma transição suave */
     width: 100%;
     z-index: 1000; /* Isto faz com que o cabeçalho permaneça no topo de outros elementos da página */
-    padding: 30px 150px;
+    padding: 40px 150px;
 }
 body {
     padding-top: 200px; /* Este é o espaço adicional no topo para compensar o cabeçalho fixo */
@@ -28,11 +28,11 @@ body {
 
 header.headercab.scrolled {
     position: fixed;
-    height: 130px;
+    height: 132px;
     top: 0;
     width: 100%;
     background-color: var(--cor3);
-    box-shadow: 0px 10px 10px black;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.516);
     z-index: 1000; 
 }
 .menuprincipal{

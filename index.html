@@ -123,27 +123,27 @@
             <div class="simulador">
                 <div class="simuparteg">
                     <h3 class="textosimu">Valor do Crédito </h3>
-                    <h3 class="textosimu2">R$100.000</h3>
-                    <input id="simu" type="range" min="5000" max="500000" >
+                    <h3 id="valorCredito" class="textosimu2" data-value="400000">R$100.000</h3>
+                    <input id="simu" type="range" min="5000" max="400000" value="200000" oninput="updateValorCredito(this.value)">
                 </div>
             </div>
             <div class="simulador">
                 <div class="simuparte">
                     <h3 class="textosimu">Parcelas</h3>
-                    <h3 class="textosimu2">12</h3>
-                    <input id="simu" type="range" min="1" max="25" value="12">
+                    <h3 id="numeroParcelas" class="textosimu2" data-value="24">12</h3>
+                    <input id="simu" type="range" min="1" max="24" value="13" oninput="updateNumeroParcelas(this.value)">
                 </div>
             </div>
             <div class="simulador">
                 <div class="simuparte">
                     <h3 class="textosimu">Taxa</h3>
-                    <h3 class="textosimu2">1.14%</h3>
+                    <h3 id="taxa" class="textosimu2">1.14%</h3>
                 </div>
             </div>
             <div class="simulador">
                 <div class="simuparteg">
                     <h3 class="textosimu">Valor de Cada Parcela</h3>
-                    <h3 class="textosimu2">R$8.963,66</h3>
+                    <h3 class="textosimu2" id="valorParcelas" >R$8.963,66</h3>
                 </div>
             </div>
         </div>
