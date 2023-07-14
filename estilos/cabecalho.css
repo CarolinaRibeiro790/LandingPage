@@ -1,31 +1,52 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family= Montserrat & display=swap');
 
-header{
-    width: 98vw;
-    height: 230px;
-    box-sizing: border-box;
-    font-family:'Montserrat', sans-serif;
-    /* margin-top: 0;
-    position: sticky;
-    top: 0;
-    z-index: 20; */
-
+:root{
+    --cor1: #232730;
+    --cor2: #1AE59B;
+    --cor3: #1C1F26;
+    --cor4: #D3D4D6;
+    --cor5: #ff7300;
+    --fonte: 'Montserrat', sans-serif;
 }
 
+header{
+    width: 98vw;
+    height: 200px;
+    box-sizing: border-box;
+    font-family:'Montserrat', sans-serif;
+    position: fixed;
+    top: 0;
+    transition: all 0.5s; /* Adicione uma transição suave */
+    width: 100%;
+    z-index: 1000; /* Isto faz com que o cabeçalho permaneça no topo de outros elementos da página */
+    padding: 30px 150px;
+}
+body {
+    padding-top: 200px; /* Este é o espaço adicional no topo para compensar o cabeçalho fixo */
+}
+
+header.headercab.scrolled {
+    position: fixed;
+    height: 130px;
+    top: 0;
+    width: 100%;
+    background-color: var(--cor3);
+    box-shadow: 0px 10px 10px black;
+    z-index: 1000; 
+}
 .menuprincipal{
    display: flex;
    justify-content: space-between;
    flex-direction: row ; 
    align-items: center;
-   padding: 70px 150px;  
+   /* padding: 70px 150px;  */
    box-sizing: border-box;
 }
 .cab_menu{
     display: flex;
     text-align: center;
     justify-content: space-between;
-    /* margin: 0 16px; */
     align-items: center;
     box-sizing: border-box;
     

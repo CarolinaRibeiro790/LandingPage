@@ -19,8 +19,9 @@
     <link rel="stylesheet" href="estilos/parteoito.css">
     <link rel="stylesheet" href="estilos/rodape.css">
 </head>
+<script src="js/main.js"></script>
 <body>
-<header>
+<header class="headercab">
     <div class="menuprincipal">
         <div class="logo">
             <a href="index.html"><img src="imagens/Logo.png" alt="M3 Lending"></a>
@@ -34,6 +35,17 @@
         </nav>
     </div>
 </header>
+<script>
+    window.onscroll = function() {
+        var header = document.querySelector('.headercab');
+    
+        if (window.pageYOffset > 0) {
+            header.classList.add('scrolled');
+        } else {
+            header.classList.remove('scrolled');
+        }
+    }
+    </script>
 
 <main>
     <section class="parteum">
@@ -175,41 +187,41 @@
             <h3 class="titu">Perguntas frequentes</h3>
         </div>
 
-        <div class="principal">
-            <span id="aparecer" class="material-icons" onclick="clickMenu()">expand_more</span>
-            <div class="textprincipal">Qual o valor do aporte mínimo?</div>
+        <details class="principal">
+            <!-- <span id="aparecer" class="material-icons" onclick="clickMenu()">expand_more</span> -->
+            <summary class="textprincipal">Qual o valor do aporte mínimo?</summary>
             <p class="textsec">Com R$ 250,00 você já pode começar a investir.</p>
-        </div>
+        </details>
 
-        <div class="principal">
-            <span id="aparecer" class="material-icons" onclick="clickMenu()">expand_more</span>
-            <div class="textprincipal">Como é feito o retorno do valor investido?</div>
+        <details class="principal">
+            <!-- <span id="aparecer" class="material-icons" onclick="clickMenu()">expand_more</span> -->
+            <summary class="textprincipal">Como é feito o retorno do valor investido?</summary>
             <p class="textsec">O retorno está atrelado diretamente ao pagamento das parcelas referentes ao contrato da empresa investida. Como o pagamento é mensal, o seu retorno também é mensal.</p>
-        </div>
+        </details>
 
-        <div class="principal">
-            <span id="aparecer" class="material-icons" onclick="clickMenu()">expand_more</span>
-            <div class="textprincipal">Como funciona o imposto de renda?</div>
+        <details class="principal">
+            <!-- <span id="aparecer" class="material-icons" onclick="clickMenu()">expand_more</span> -->
+            <summary class="textprincipal">Como funciona o imposto de renda?</summary>
             <p class="textsec">O imposto de renda é retido na fonte e o informe de rendimento é enviado para o investidor pela M3 Lending.</p>
-        </div>
+        </details>
 
-        <div class="principal">
-            <span id="aparecer" class="material-icons" onclick="clickMenu()">expand_more</span>
-            <div class="textprincipal">Qual o risco?</div>
+        <details class="principal">
+            <!-- <span id="aparecer" class="material-icons" onclick="clickMenu()">expand_more</span> -->
+            <summary class="textprincipal">Qual o risco?</summary>
             <p class="textsec">Como todo investimento, o nosso também possui risco, ou seja, o retorno está diretamente atrelado ao pagamento das parcelas do contrato pela empresa investida. A M3 faz uma análise de crédito baseada no histórico da empresa e solicita um avalista como garantia. Destacamos que a M3 possui um time de cobranças responsável pelos casos de inadimplência e que através desse time, realiza ações extra judiciais ou, em alguns casos negociações na esfera judicial, visando sempre reaver o valor em aberto da melhor forma possível.</p>
-        </div>
+        </details>
 
-        <div class="principal">
-            <span id="aparecer" class="material-icons" onclick="clickMenu()">expand_more</span>
-            <div class="textprincipal">Os investidores são cobertos pelo FGC?</div>
+        <details class="principal">
+            <!-- <span id="aparecer" class="material-icons" onclick="clickMenu()">expand_more</span> -->
+            <summary class="textprincipal">Os investidores são cobertos pelo FGC?</summary>
             <p class="textsec">Não, nenhum dos investimentos realizados através da plataforma M3 são cobertos pelo FGC.</p>
-        </div>
+        </details>
 
-        <div class="principal">
-            <span id="aparecer" class="material-icons" onclick="clickMenu()">expand_more</span>
-            <div class="textprincipal">Em quanto tempo o valor resgatado está na minha conta corrente?</div>
+        <details class="principal">
+            <!-- <span id="aparecer" class="material-icons" onclick="clickMenu()">expand_more</span> -->
+            <summary class="textprincipal">Em quanto tempo o valor resgatado está na minha conta corrente?</summary>
             <p class="textsec">O tempo será o mesmo de uma operação de TED, ou seja, até um dia útil.</p>
-        </div>
+        </details>
     </section>
 
     <section class="parteoito">
