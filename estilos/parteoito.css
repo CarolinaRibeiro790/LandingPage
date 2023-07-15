@@ -46,8 +46,8 @@
     
 }
 .icones{
-    width: 25px;
-    height: 25px;
+    width: 27px;
+    height: 29px;
     margin-left: 30px;
 }
 .ctt{
@@ -77,28 +77,18 @@ label{
     font-size: 14px;
     line-height: 19px;
 }
-p{
-    padding: 5px;
-}
-textarea{
-   
-    color: var(--cor4);
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 19px;
-    border: 1px solid #FFFFFF;
-    background: transparent;
-    height: 200px;
-    border-radius: 5px;
-    box-sizing: border-box;
-    padding: 25px;
-    width: 450px;
-    font-family: var(--fonte);
-}
 
-input.pt8{
+
+.pt8{
+    border: none;
+}
+legend{
+    padding: 0 10px ;
+    font-size: 12px;
+}
+fieldset{
     color: var(--cor4);
+    font-family: var(--fonte);
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -108,10 +98,18 @@ input.pt8{
     height: 40px;
     border-radius: 5px;
     box-sizing: border-box;
-    padding: 25px;
-    width: 450px;
+    padding: 10px 40px 40px 10px;
+    width: 400px;
 }
 
+.textareainput{
+    height: 250px;
+}
+input::placeholder{
+    background-color: var(--cor1);
+    color: var(--cor4);
+    
+}
 .bot{
     display: inline-block;
     background-color: var(--cor2);

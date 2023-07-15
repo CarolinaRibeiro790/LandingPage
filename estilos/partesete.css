@@ -25,6 +25,10 @@
     padding-top: 120px;
 
 }
+
+.textprincipal, .textsec{
+    font-size: 18px;
+}
 .principal{
     width: 60%;
     color: var(--cor4);
