@@ -39,6 +39,10 @@
     border-radius: 15px;
     padding: 30px;
 }
+.textsec{
+    font-size: 18px;
+    color: var(--cor4);
+}
 .titu5{
     color: var(--cor2);
     font-size: 41px;

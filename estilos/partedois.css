@@ -23,14 +23,16 @@
 
 .partedoisesquerdo{
     width: 50%;
-}
- 
+    cursor: pointer;
+} 
 .partedoisdireito{
     width: 50%;
     height: 550px;
     padding: 0 0px;
     box-sizing: border-box;
+    
 }
+
 .tit{
     color: var(--cor2);
     font-size: 41px;
