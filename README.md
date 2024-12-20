@@ -1,7 +1,10 @@
 # LandingPage
- Desafio HTML - CSS. 
 
- ## Tela 
+## Tecnologias
+<li>HTML</li>
+<li>CSS</li>
+
+ ## Projeto 
 ![LP](https://github.com/user-attachments/assets/5a03d4a0-b825-4cde-92f5-37d4874382a6)
 ![LP02](https://github.com/user-attachments/assets/9799a049-517e-438d-8606-1a4b59ee2a21)
 ![LP03](https://github.com/user-attachments/assets/84d1d1e6-90ad-40ec-b630-9fff1d865811)
